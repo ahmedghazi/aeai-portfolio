@@ -6,15 +6,17 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./web
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
+
       - name: install deps
-        working-directory: ./web
         run: yarn install
 
       - name: Build
-        working-directory: ./web
         run: next build
 
       - name: 📂 Sync files
