@@ -1,0 +1,24 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: install deps
+        run: yarn install
+
+      - name: Build
+        run: next build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.ahmedghazi.com
+          username: ahmedgha
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./web/out/
+          server-dir: /home/ahmedgha/www/

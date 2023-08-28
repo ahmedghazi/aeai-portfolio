@@ -1,0 +1,9 @@
+{
+  "name": "aeai-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "w": "cd web && yarn dev"
+  }
+}
