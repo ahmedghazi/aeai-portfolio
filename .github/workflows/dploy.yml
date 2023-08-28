@@ -1,6 +1,5 @@
-on: push
 name: 🚀 Deploy website on push
-on: repository_dispatch
+on: [push, repository_dispatch]
 jobs:
   web-deploy:
     name: 🎉 Deploy
