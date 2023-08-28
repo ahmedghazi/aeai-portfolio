@@ -12,7 +12,7 @@ jobs:
         run: cd web && yarn install
 
       - name: Build
-        run: cd web && next build
+        run: next build
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
