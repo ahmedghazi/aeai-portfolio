@@ -15,7 +15,7 @@ const Header = async (props: Props) => {
     <header className='text-left'>
       <Grid length={13} color='rgba(20,20,20,1)' />
       <div className='inner px-lg md:px-xl'>
-        <div className='md:whitespace-pre _row'>
+        <div className='md:whitespace-pre _row sitename'>
           <Icon />
           {"      "}
           {settings.siteName}
@@ -35,9 +35,9 @@ const Header = async (props: Props) => {
             ))}
         </div>
         <div className='md:px-lg skills'>
-          <div className='flex _row'>
+          <div className=' _row flex '>
             <div className='accr pr-md'>_s:</div>
-            <div className='flex flex-wrap'>
+            <div className='tags flex flex-wrap- flex-nowrap hide-sb'>
               {tags.map((item: Tag, i) => (
                 <div key={i} className='pr-md _row'>
                   <TagButton input={item} key={i} />

@@ -34,8 +34,8 @@ const Project = ({ input }: Props) => {
         href={input.url}
         target='_blank'
         rel='noopener noreferrer'
-        className='grid grid-cols-2 md:grid-cols-4 text-primary _row relative'>
-        <h2>{input.title}</h2>
+        className='flex justify-between md:grid grid-cols-2 md:grid-cols-4 text-primary _row relative'>
+        <h2 className='ellipsis'>{input.title}</h2>
         <div className='meta hidden-sm'>{input.year}</div>
         <div className='meta hidden-sm'>
           {input.tags &&
@@ -54,7 +54,8 @@ const Project = ({ input }: Props) => {
               </span>
             ))}
         </div>
-        <div className='meta ellipsis'>{input.url}</div>
+        <div className='meta ellipsis hidden-sm'>{input.url}</div>
+        <div className='arrow sm-only text-right'>🔗</div>
       </a>
     </article>
   );

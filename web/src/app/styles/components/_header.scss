@@ -27,6 +27,16 @@ header {
       div {
         // line-height: 1.5;
       }
+      .sitename {
+        overflow: clip;
+      }
+      .tags {
+        overflow-x: auto;
+        max-width: 80vw;
+        & > ._row {
+          flex-shrink: 0;
+        }
+      }
     }
   }
 }
