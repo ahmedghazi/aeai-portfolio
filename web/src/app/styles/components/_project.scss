@@ -1,0 +1,8 @@
+.project {
+  padding: 0 var(--space-xl);
+  line-height: 1.5em;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}

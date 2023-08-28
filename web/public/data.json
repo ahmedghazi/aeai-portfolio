@@ -1,0 +1,2366 @@
+[
+  {
+    "id": "XTGN6xAAACQAIiat",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGN6xAAACQAIiat%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:31:26+0000",
+    "last_publication_date": "2019-07-19T13:24:17+0000",
+    "slugs": ["sol-paris"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "sol paris",
+          "spans": []
+        }
+      ],
+      "url": "https://sol-paris.com/",
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGP_hAAACUAIjAm",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGP_hAAACUAIjAm%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:40:17+0000",
+    "last_publication_date": "2019-07-19T09:40:17+0000",
+    "slugs": ["smala-paris"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "smala paris",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://smalaparis.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGObxAAACUAIij9",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGObxAAACUAIij9%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:33:38+0000",
+    "last_publication_date": "2019-07-19T09:33:38+0000",
+    "slugs": ["ouistiti"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "ouistiti",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://ouistiti.io",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLtBAAACUAIhyF",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "mean",
+        "first_publication_date": "2019-07-19T09:22:07+0000",
+        "last_publication_date": "2019-07-19T12:44:04+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "MEAN",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#429634,#ff9426, #e03437, #9abd4f",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGP6RAAACUAIi_E",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGP6RAAACUAIi_E%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:39:55+0000",
+    "last_publication_date": "2019-07-19T09:39:55+0000",
+    "slugs": ["mox-exe"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "mox exe",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.mox-exe.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGO4RAAACUAIir7",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGO4RAAACUAIir7%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:35:31+0000",
+    "last_publication_date": "2019-07-19T09:35:31+0000",
+    "slugs": ["librairie-des-archives"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "librairie des archives",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.librairiedesarchives.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGNyRAAACUAIiYR",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGNyRAAACUAIiYR%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:30:53+0000",
+    "last_publication_date": "2019-07-19T13:24:40+0000",
+    "slugs": ["les-entretiens-de-sceaux"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "les entretiens de sceaux",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://www.lesentretiensdesceaux.fr",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPBhAAACQAIiuk",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPBhAAACQAIiuk%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:36:08+0000",
+    "last_publication_date": "2019-07-19T09:36:08+0000",
+    "slugs": ["exertier-diagnostic-beaute"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "exertier DIAGNOSTIC BEAUTÉ",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://exertier.fr/diagnostic-beaute",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGOChAAACIAIic_",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGOChAAACIAIic_%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:31:57+0000",
+    "last_publication_date": "2019-07-19T13:23:10+0000",
+    "slugs": ["bal.to"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "bal.to",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://bal.to",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGNExAAACQAIiLL",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGNExAAACQAIiLL%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:27:49+0000",
+    "last_publication_date": "2019-07-19T13:22:56+0000",
+    "slugs": ["vj-type"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "VJ-TYPE",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "paragraph",
+          "text": "https://vj-type.com",
+          "spans": [
+            {
+              "start": 0,
+              "end": 19,
+              "type": "hyperlink",
+              "data": {
+                "link_type": "Web",
+                "url": "https://vj-type.com"
+              }
+            }
+          ]
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XcGN_hEAACcAraXU",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XcGN_hEAACcAraXU%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-11-05T14:58:09+0000",
+    "last_publication_date": "2019-11-05T14:58:09+0000",
+    "slugs": ["splendens-factory"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Splendens Factory",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://www.splendens-factory.com/",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "false"
+    }
+  },
+  {
+    "id": "Xe96ihAAACEAV8kp",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22Xe96ihAAACEAV8kp%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-12-10T10:59:25+0000",
+    "last_publication_date": "2019-12-10T11:00:39+0000",
+    "slugs": ["spectral-for-google-fonts-by-production-type", "spectral"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Spectral for Google Fonts by Production Type",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://spectral.aeai.eu/",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGL3RAAACIAIh1E",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "angular",
+        "first_publication_date": "2019-07-19T09:22:40+0000",
+        "last_publication_date": "2019-07-19T12:43:27+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Angular",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#e03437",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "false"
+    }
+  },
+  {
+    "id": "XTGMphAAACIAIiDj",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGMphAAACIAIiDj%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:26:02+0000",
+    "last_publication_date": "2019-07-19T12:01:19+0000",
+    "slugs": ["newsfilter"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "NewsFilter",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "paragraph",
+          "text": "https://chrome.google.com/webstore/detail/newsfilter/hngmdoajnfefifbplmmfdhgopallpdlo",
+          "spans": [
+            {
+              "start": 0,
+              "end": 85,
+              "type": "hyperlink",
+              "data": {
+                "link_type": "Web",
+                "url": "https://chrome.google.com/webstore/detail/newsfilter/hngmdoajnfefifbplmmfdhgopallpdlo"
+              }
+            }
+          ]
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGMCBAAAGcbIh4O",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "chrome-extension",
+        "first_publication_date": "2019-07-19T09:23:22+0000",
+        "last_publication_date": "2019-07-19T12:42:48+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Chrome extension",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#4cb648",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGNQRAAAGcbIiOj",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGNQRAAAGcbIiOj%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:28:36+0000",
+    "last_publication_date": "2019-07-19T13:25:19+0000",
+    "slugs": ["joanna-spadiliero"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Joanna Spadiliero",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://www.joanna-spadiliero.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGOvhAAACUAIipk",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGOvhAAACUAIipk%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:34:57+0000",
+    "last_publication_date": "2019-07-19T09:34:57+0000",
+    "slugs": ["grande-charte"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Grande Charte",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://grandecharte.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLzRAAACUAIhz8",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "react",
+        "first_publication_date": "2019-07-19T09:22:25+0000",
+        "last_publication_date": "2019-07-19T12:43:39+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "React",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#4ad5ff",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGOTxAAACIAIihs",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGOTxAAACIAIihs%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:33:05+0000",
+    "last_publication_date": "2019-07-19T09:33:05+0000",
+    "slugs": ["biennale-darchitecture-et-du-paysage"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Biennale d’architecture et du paysage",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://bap-idf.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPHhAAAGcbIiwW",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPHhAAAGcbIiwW%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:36:35+0000",
+    "last_publication_date": "2019-07-19T09:36:35+0000",
+    "slugs": ["asa-pingree"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Asa Pingree",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://asapingree.com",
+          "spans": []
+        }
+      ],
+      "year": 2018,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPaxAAAGcbIi17",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPaxAAAGcbIi17%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:37:50+0000",
+    "last_publication_date": "2019-07-19T09:37:50+0000",
+    "slugs": ["zuo-architecture"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "zuo architecture",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.zuo-architecture.com",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPjRAAAGcbIi4Y",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPjRAAAGcbIi4Y%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:38:24+0000",
+    "last_publication_date": "2019-07-19T09:38:24+0000",
+    "slugs": ["talents--co"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "talents & co",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.talentsandco.com",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPqhAAACUAIi6f",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPqhAAACUAIi6f%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:38:53+0000",
+    "last_publication_date": "2019-07-19T09:38:53+0000",
+    "slugs": ["sensual-city-studio"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "sensual city studio",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://sensual-city.com",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPzhAAACIAIi9E",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPzhAAACIAIi9E%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:39:30+0000",
+    "last_publication_date": "2019-07-19T09:39:30+0000",
+    "slugs": ["sensual-city-search"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "sensual city search ",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://search.sensual-city.com",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGQMxAAACUAIjEj",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQMxAAACUAIjEj%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:41:09+0000",
+    "last_publication_date": "2019-07-19T09:41:09+0000",
+    "slugs": ["enfeu.studio"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "enfeu.studio",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://enfeu.studio",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGLWBAAACUAIhrd",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGLWBAAACUAIhrd%22%29+%5D%5D",
+    "tags": ["sticky"],
+    "first_publication_date": "2019-07-19T09:20:28+0000",
+    "last_publication_date": "2019-11-05T12:45:48+0000",
+    "slugs": ["t-e-l-e-p-o-r-t.me"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "T-E-L-E-P-O-R-T.ME",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "paragraph",
+          "text": "https://t-e-l-e-p-o-r-t.me/",
+          "spans": [
+            {
+              "start": 0,
+              "end": 27,
+              "type": "hyperlink",
+              "data": {
+                "link_type": "Web",
+                "url": "https://t-e-l-e-p-o-r-t.me/"
+              }
+            }
+          ]
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLzRAAACUAIhz8",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "react",
+        "first_publication_date": "2019-07-19T09:22:25+0000",
+        "last_publication_date": "2019-07-19T12:43:39+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "React",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#4ad5ff",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "true"
+    }
+  },
+  {
+    "id": "XTGOixAAACQAIil_",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGOixAAACQAIil_%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:34:07+0000",
+    "last_publication_date": "2019-07-19T09:34:07+0000",
+    "slugs": ["olivier-lebrun"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Olivier Lebrun",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://olivierlebrun.fr",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGL3RAAACIAIh1E",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "angular",
+        "first_publication_date": "2019-07-19T09:22:40+0000",
+        "last_publication_date": "2019-07-19T12:43:27+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Angular",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#e03437",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPTxAAACQAIiz0",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPTxAAACQAIiz0%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:37:21+0000",
+    "last_publication_date": "2019-07-19T09:37:21+0000",
+    "slugs": ["jean-pierre-lott-architecture"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "JEAN-PIERRE LOTT architecture",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://jplott.fr",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGPNxAAACQAIiyJ",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGPNxAAACQAIiyJ%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:36:59+0000",
+    "last_publication_date": "2019-07-19T09:36:59+0000",
+    "slugs": ["baserange"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "BASERANGE",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.baserange.net",
+          "spans": []
+        }
+      ],
+      "year": 2017,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGQmBAAAGcbIjMC",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQmBAAAGcbIjMC%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:42:51+0000",
+    "last_publication_date": "2019-07-19T09:42:51+0000",
+    "slugs": ["sparkle-studio"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "sparkle studio",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.sparklestudio.fr",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XjgdwBAAAB6Y9Z1U",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XjgdwBAAAB6Y9Z1U%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-02-03T13:18:59+0000",
+    "last_publication_date": "2020-02-03T13:18:59+0000",
+    "slugs": ["hornof.tv"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "hornof.tv",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://hornof.tv/",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "false"
+    }
+  },
+  {
+    "id": "XfT2xRAAAGaacBXW",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XfT2xRAAAGaacBXW%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-12-14T14:50:48+0000",
+    "last_publication_date": "2019-12-14T14:50:48+0000",
+    "slugs": ["csm-live"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "csm live",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://csmlive.trimaran.net",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGL3RAAACIAIh1E",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "angular",
+        "first_publication_date": "2019-07-19T09:22:40+0000",
+        "last_publication_date": "2019-07-19T12:43:27+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Angular",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#e03437",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "false"
+    }
+  },
+  {
+    "id": "XTGQbRAAACQAIjI6",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQbRAAACQAIjI6%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:42:08+0000",
+    "last_publication_date": "2019-07-19T09:42:08+0000",
+    "slugs": ["bros-stories"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "bros stories",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://bros-stories.com",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGQFhAAACUAIjCc",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQFhAAACUAIjCc%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:40:42+0000",
+    "last_publication_date": "2019-07-19T09:40:42+0000",
+    "slugs": ["anto-hinh-thai"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "anto hinh thai",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://anto-hinh-thai.com",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGMZxAAACQAIh_K",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGMZxAAACQAIh_K%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:25:29+0000",
+    "last_publication_date": "2019-08-14T12:19:54+0000",
+    "slugs": ["the-skateboard-soundtracks", "optoopto"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "THE SKATEBOARD SOUNDTRACKS",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://theskateboardsoundtracks.com",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLtBAAACUAIhyF",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "mean",
+        "first_publication_date": "2019-07-19T09:22:07+0000",
+        "last_publication_date": "2019-07-19T12:44:04+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "MEAN",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#429634,#ff9426, #e03437, #9abd4f",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "true"
+    }
+  },
+  {
+    "id": "XTGMYRAAACQAIh-s",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGMYRAAACQAIh-s%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:24:52+0000",
+    "last_publication_date": "2019-07-19T13:09:26+0000",
+    "slugs": ["optoopto"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "OPTOOPTO",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://www.optoopto.eu",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGL-BAAACIAIh3I",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "static",
+        "first_publication_date": "2019-07-19T09:23:07+0000",
+        "last_publication_date": "2019-07-19T12:43:00+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Static",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#e34f26",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGM0RAAACUAIiGg",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGM0RAAACUAIiGg%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:26:57+0000",
+    "last_publication_date": "2019-07-19T13:22:17+0000",
+    "slugs": ["mixtubetape"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "MixTubeTape",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://mixtubetape.eu",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLzRAAACUAIhz8",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "react",
+        "first_publication_date": "2019-07-19T09:22:25+0000",
+        "last_publication_date": "2019-07-19T12:43:39+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "React",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#4ad5ff",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGQWRAAAGcbIjHY",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQWRAAAGcbIjHY%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:41:48+0000",
+    "last_publication_date": "2019-07-19T13:07:16+0000",
+    "slugs": ["association-duchamp-villon-crotti"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Association Duchamp Villon Crotti",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://www.duchamp-villon-crotti.com",
+          "spans": []
+        }
+      ],
+      "year": 2016,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGRmRAAACUAIjez",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGRmRAAACUAIjez%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:47:08+0000",
+    "last_publication_date": "2019-07-19T09:47:08+0000",
+    "slugs": ["hornof.tv"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "hornof.tv",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://hornof.tv",
+          "spans": []
+        }
+      ],
+      "year": 2015,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XkE5BBEAACIAGCST",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XkE5BBEAACIAGCST%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2020-02-10T11:05:43+0000",
+    "last_publication_date": "2020-02-10T11:05:43+0000",
+    "slugs": ["soixanteseize"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "soixanteseize",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://soixanteseize.com/",
+          "spans": []
+        }
+      ],
+      "year": 2014,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": "false"
+    }
+  },
+  {
+    "id": "XTGQ3xAAAGcbIjRI",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGQ3xAAAGcbIjRI%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:44:03+0000",
+    "last_publication_date": "2019-07-19T09:44:03+0000",
+    "slugs": ["ac-vp"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "ac-vp",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "http://ac-vp.com",
+          "spans": []
+        }
+      ],
+      "year": 2014,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGRXBAAACIAIjaT",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGRXBAAACIAIjaT%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:46:07+0000",
+    "last_publication_date": "2019-07-19T09:46:07+0000",
+    "slugs": ["tara-expeditions"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "tara expeditions",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://oceans.taraexpeditions.org/",
+          "spans": []
+        }
+      ],
+      "year": 2013,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  },
+  {
+    "id": "XTGRGBAAACUAIjVK",
+    "uid": null,
+    "url": null,
+    "type": "projects",
+    "href": "https://aeai.cdn.prismic.io/api/v2/documents/search?ref=ZOMoQxAAAB8Ad2UW&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XTGRGBAAACUAIjVK%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-07-19T09:44:58+0000",
+    "last_publication_date": "2019-07-19T09:44:58+0000",
+    "slugs": ["la-cerise-sur-le-chapeau"],
+    "linked_documents": [],
+    "lang": "fr-fr",
+    "alternate_languages": [],
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "la cerise sur le chapeau ",
+          "spans": []
+        }
+      ],
+      "url": [
+        {
+          "type": "heading1",
+          "text": "https://www.lacerisesurlechapeau.com/product-category/chapeau-custom",
+          "spans": []
+        }
+      ],
+      "year": 2013,
+      "category": {
+        "id": "XTGLrBAAACUAIhxd",
+        "type": "category",
+        "tags": [],
+        "lang": "fr-fr",
+        "slug": "wordpress",
+        "first_publication_date": "2019-07-19T09:21:52+0000",
+        "last_publication_date": "2019-07-19T12:44:15+0000",
+        "data": {
+          "name": [
+            {
+              "type": "heading1",
+              "text": "Wordpress",
+              "spans": []
+            }
+          ],
+          "color": [
+            {
+              "type": "heading1",
+              "text": "#00a0d2",
+              "spans": []
+            }
+          ]
+        },
+        "link_type": "Document",
+        "isBroken": false
+      },
+      "tags": [],
+      "sticky": null
+    }
+  }
+]

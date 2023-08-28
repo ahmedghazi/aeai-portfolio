@@ -1,0 +1,35 @@
+.dot-matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  // padding-top: var(--space-sm);
+  z-index: 999;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  .left,
+  .right {
+    padding: 0 var(--space-sm);
+    position: absolute;
+  }
+  .left {
+  }
+  .right {
+    right: 0;
+  }
+  .item {
+    padding: toRem(7.5) 0;
+    position: sticky;
+    top: 0;
+    // &:nth-child(2n) .dot {
+    //   background-color: green;
+    // }
+  }
+  .dot {
+    width: var(--space-sm);
+    height: var(--space-sm);
+    border-radius: 100%;
+    background-color: white;
+  }
+}
