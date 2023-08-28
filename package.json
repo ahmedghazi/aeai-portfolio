@@ -5,6 +5,6 @@
   "license": "MIT",
   "scripts": {
     "w": "cd web && yarn dev",
-    "d": "git add . && git commit -m 'deploy new'"
+    "d": "git add . && git commit -m 'deploy new' && git push"
   }
 }
