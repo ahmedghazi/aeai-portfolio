@@ -1,5 +1,6 @@
 on: push
 name: 🚀 Deploy website on push
+on: repository_dispatch
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -10,6 +11,10 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
+
+      - run: 'echo "field: ${{ github.event.client_payload.foo }}"'
+      - run: 'echo "payload: ${{ toJson(github.event.client_payload) }}"'
+      - run: echo baz
 
       - name: install deps
         run: yarn install
@@ -27,8 +32,3 @@ jobs:
           password: ${{ secrets.ftp_password }}
           local-dir: ./web/out/
           server-dir: /home/ahmedgha/www/
-on:
-  repository_dispatch:
-    types:
-      - manual-trigger-mytest
-      - manual-trigger-all
