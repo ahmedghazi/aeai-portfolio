@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "s": "cd studio && yarn dev",
     "w": "cd web && yarn dev",
     "d": "git add . && git commit -m 'deploy new' && git push"
   }
