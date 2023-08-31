@@ -21,15 +21,21 @@ const DeployComponent = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'token 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',
+          Authorization: 'token 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',
           Accept: 'application/vnd.github.everest-preview+json',
+          'X-GitHub-Api-Version': '2022-11-28',
         },
         body: JSON.stringify({
+          owner: 'ahmedghazi',
+          repo: 'aeai-portfolio',
           event_type: 'deploy from sanity',
           client_payload: {},
         }),
       },
     )
+    console.log(response)
+    const json = await response.json()
+    console.log(json)
   }
 
   return (
