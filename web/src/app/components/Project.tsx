@@ -34,7 +34,7 @@ const Project = ({ input }: Props) => {
     publish("PROJECT_IFRAME", input.url);
   };
   const _onMouseLeave = (e: React.MouseEvent) => {
-    publish("PROJECT_IFRAME", "");
+    // publish("PROJECT_IFRAME", "");
   };
 
   return (

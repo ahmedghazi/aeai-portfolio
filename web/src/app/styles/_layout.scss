@@ -40,6 +40,20 @@ main {
   // }
 }
 
+.modal-hover {
+  border: 1px solid;
+  // border-radius: 1em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  bottom: -1px;
+  overflow: hidden;
+  // transform: scale(0.5) translateX(-50%);
+  // transform-origin: left top;
+  iframe {
+    // zoom: 0.75;
+  }
+}
+
 @media all and (min-width: $md) {
 }
 

@@ -9,6 +9,7 @@ const ModalHover = (props: Props) => {
   const [url, setUrl] = useState<string>("");
   const [show, setShow] = useState<boolean>(false);
   const [transform, setTransform] = useState<any>({ x: 0, y: 0 });
+  const [canTransform, setCanTransform] = useState<boolean>(true);
   const ref = useRef<HTMLDivElement>(null);
   const width = 360,
     height = 740;
@@ -18,8 +19,17 @@ const ModalHover = (props: Props) => {
       setUrl(d);
     });
 
+    const container = ref.current;
+    if (container) {
+      container.addEventListener("mouseenter", _onEnter);
+      container.addEventListener("mouseleave", _onLeave);
+    }
     return () => {
       unsubscribe(token);
+      if (container) {
+        container.removeEventListener("mouseenter", _onEnter);
+        container.removeEventListener("mouseleave", _onLeave);
+      }
     };
   }, []);
 
@@ -27,43 +37,63 @@ const ModalHover = (props: Props) => {
     // if(url)
     setShow(url !== "");
     if (url) {
+      // console.log(url);
       document.body.addEventListener("mousemove", _update);
     } else {
       document.body.removeEventListener("mousemove", _update);
     }
   }, [url]);
+  console.log(show);
 
   const _update = (e: MouseEvent) => {
-    console.log(e);
+    if (url) return;
     setTransform({
-      // x: e.offsetX - width / 2,
-      // y: e.offsetY - height / 2,
-      x: e.clientX,
-      y: e.clientY - height / 2,
+      x: e.clientX - 5,
+      y: e.clientY - 5,
     });
+  };
+
+  const _onEnter = () => {
+    setTimeout(() => {
+      // setCanTransform(false);
+    }, 250);
+  };
+  const _onLeave = () => {
+    // setShow(false);
+    setTimeout(() => {
+      // setCanTransform(true);
+    }, 250);
   };
 
   return (
     <div
       ref={ref}
       className={clsx(
-        "fixed left-0 top-0 pointer-events-none  will-change-transform transition-opacity- transition-all-  hidden-sm z-50 bg-bg"
+        "modal-hover fixed bottom-0 right-xl -translate-x-1/2)- scale-50- pointer-events-none-  will-change-transform transition-opacity- transition-all-  hidden-sm z-50 bg-bg"
       )}
       style={{
-        transform: `translate(${transform.x}px, ${transform.y}px)`,
+        // transform: !url
+        //   ? `translate(${transform.x}px, ${transform.y}px) scale(0.5)`
+        //   : "scale(0.5)",
+        // transform: `translate(${transform.x}px, ${transform.y}px) scale(0.5)`,
         opacity: show ? 1 : 0,
         width: `${width}px`,
         height: `${height}px`,
+        pointerEvents: show ? "all" : "none",
       }}>
+      <button
+        className='close absolute right-md top-md scale-150-'
+        onClick={() => setShow(false)}>
+        close
+      </button>
       {url && (
         <iframe
           src={url}
-          frameBorder='0'
-          scrolling='no'
+          // frameBorder='0'
+          // scrolling='no'
           width={width}
           height={height}></iframe>
       )}
-      {/* <img src={image.url} width={width} height={height} alt={alt} /> */}
     </div>
   );
 };
