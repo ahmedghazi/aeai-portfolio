@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Ahmed Ghazi Web Design + Code",
     description:
-      "BASED IN PARIS 18. Angular ,Chrome extension ,Design ,Eshop ,JAMStack ,MEAN ,React ,Static ,Wordpress",
+      "BASED IN PARIS 18. Angular, Chrome extension, Design, Eshop, JAMStack, MEAN, React, Static, Wordpress",
     openGraph: {
       images: [
         settings.logo?.asset.url ||
