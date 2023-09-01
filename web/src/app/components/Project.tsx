@@ -31,6 +31,7 @@ const Project = ({ input }: Props) => {
   }, [tag]);
 
   const _onMouseEnter = (e: React.MouseEvent) => {
+    if ("ontouchstart" in window) return;
     publish("PROJECT_IFRAME", input.url);
   };
   const _onMouseLeave = (e: React.MouseEvent) => {

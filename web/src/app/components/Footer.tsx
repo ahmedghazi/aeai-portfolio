@@ -32,7 +32,7 @@ const Footer = async (props: Props) => {
         </div>
 
         <div className='_row text-right'>
-          © AHMED GHAZI {new Date().getFullYear()}
+          © AHMED GHAZI — from 2009 til {new Date().getFullYear()}
         </div>
       </div>
     </footer>

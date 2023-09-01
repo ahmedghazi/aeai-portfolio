@@ -23,7 +23,7 @@ const DeployComponent = () => {
         headers: {
           // 'Content-Type': 'application/json',
           Accept: 'application/vnd.github+json',
-          Authorization: 'token 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',
+          Authorization: 'token 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',
           'X-GitHub-Api-Version': '2022-11-28',
         },
         body: JSON.stringify({
