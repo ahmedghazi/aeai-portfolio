@@ -8,26 +8,20 @@ type Props = {};
 const ModalHover = (props: Props) => {
   const [url, setUrl] = useState<string>("");
   const [show, setShow] = useState<boolean>(false);
-  const [transform, setTransform] = useState<any>({ x: 0, y: 0 });
-  const [canTransform, setCanTransform] = useState<boolean>(true);
+  // const [transform, setTransform] = useState<any>({ x: 0, y: 0 });
+  // const [canTransform, setCanTransform] = useState<boolean>(true);
   const [iframeLoaded, setFframeLoaded] = useState<boolean>(false);
+
   const ref = useRef<HTMLDivElement>(null);
   const width = 360,
     height = 740;
 
   useEffect(() => {
-    console.log(window.navigator.userAgent);
     const token = subscribe("PROJECT_IFRAME", (e, d) => {
       setFframeLoaded(false);
-      // if (ref.current) {
-      //   const iframe = ref.current.querySelector("iframe");
-      //   if (iframe)
-      //     setUserAgent(
-      //       iframe.contentWindow,
-      //       "Mozilla/5.0 (Linux; Android 7.0; SM-G950U Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36"
-      //     );
-      // }
-
+      // navigator.__defineGetter__("userAgent", function () {
+      //   return "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5";
+      // });
       setUrl(d);
     });
 
@@ -48,21 +42,21 @@ const ModalHover = (props: Props) => {
   useEffect(() => {
     // if(url)
     setShow(url !== "");
-    if (url) {
-      // console.log(url);
-      document.body.addEventListener("mousemove", _update);
-    } else {
-      document.body.removeEventListener("mousemove", _update);
-    }
+    // if (url) {
+    //   // console.log(url);
+    //   document.body.addEventListener("mousemove", _update);
+    // } else {
+    //   document.body.removeEventListener("mousemove", _update);
+    // }
   }, [url]);
 
-  const _update = (e: MouseEvent) => {
-    if (url) return;
-    setTransform({
-      x: e.clientX - 5,
-      y: e.clientY - 5,
-    });
-  };
+  // const _update = (e: MouseEvent) => {
+  //   if (url) return;
+  //   setTransform({
+  //     x: e.clientX - 5,
+  //     y: e.clientY - 5,
+  //   });
+  // };
 
   const _onEnter = () => {
     setTimeout(() => {
@@ -139,7 +133,7 @@ const ModalHover = (props: Props) => {
           // frameBorder='0'
           // scrolling='no'
           title='preview'
-          width={width}
+          width={"100%"}
           height={height}
           onLoad={_onIframeLoaded}
           className={clsx(
