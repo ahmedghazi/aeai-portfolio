@@ -28,7 +28,7 @@ const DeployComponent = () => {
         body: JSON.stringify({
           owner: 'ahmedghazi',
           repo: 'aeai-portfolio',
-          event_type: 'deploy from sanity',
+          event_type: 'deploy-from-sanity',
           client_payload: {},
         }),
       },
@@ -42,10 +42,16 @@ const DeployComponent = () => {
     <Card padding={4}>
       <Inline space={[3, 3, 4]}>
         <Button onClick={_onClick}>My custom tool!</Button>
-        <img
-          src="https://github.com/ahmedghazi/aeai-portfolio/actions/workflows/dploy.yml/badge.svg"
-          alt=""
-        />
+        <a
+          href="https://github.com/ahmedghazi/aeai-portfolio/actions"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://github.com/ahmedghazi/aeai-portfolio/actions/workflows/dploy.yml/badge.svg"
+            alt=""
+          />
+        </a>
       </Inline>
     </Card>
   )
