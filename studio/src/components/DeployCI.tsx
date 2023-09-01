@@ -15,19 +15,20 @@ const DeployComponent = () => {
   const [status, setStatus] = useState<string>('')
 
   const _onClick = async () => {
+    //https://github.com/settings/tokens/new
     const response = await fetch(
       'https://api.github.com/repos/ahmedghazi/aeai-portfolio/dispatches',
       {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-          Authorization: 'token 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',
-          Accept: 'application/vnd.github.everest-preview+json',
+          // 'Content-Type': 'application/json',
+          Accept: 'application/vnd.github+json',
+          Authorization: 'token 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',
           'X-GitHub-Api-Version': '2022-11-28',
         },
         body: JSON.stringify({
-          owner: 'ahmedghazi',
-          repo: 'aeai-portfolio',
+          // owner: 'ahmedghazi',
+          // repo: 'aeai-portfolio',
           event_type: 'deploy-from-sanity',
           client_payload: {
             message: `trigger from deploy ci inside sanity on ${new Date()}`,
@@ -36,8 +37,11 @@ const DeployComponent = () => {
       },
     )
     console.log(response)
-    const json = await response.json()
-    console.log(json)
+    // const json = await response.json()
+    // console.log(json)
+    if (response.status === 204) {
+      alert('done')
+    }
   }
 
   return (
