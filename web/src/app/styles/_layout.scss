@@ -49,7 +49,7 @@ main {
   overflow: hidden;
   // transform: scale(0.5) translateX(-50%);
   // transform-origin: left top;
-  padding-top: 2.2em;
+  // padding-top: 2.2em;
   .header {
     background-color: black;
     color: white;
@@ -63,6 +63,8 @@ main {
   }
   iframe {
     // zoom: 0.75;
+    position: relative;
+    top: 2.2em;
   }
   button {
     // background-color: black;
