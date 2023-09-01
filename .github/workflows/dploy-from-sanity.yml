@@ -1,6 +1,7 @@
 name: 🚀 Deploy website from sanity
-on: repository_dispatch:
-  types: [deploy-from-sanity]
+on:
+  repository_dispatch:
+    types: [deploy-from-sanity]
 jobs:
   web-deploy:
     name: 🎉 Deploy
