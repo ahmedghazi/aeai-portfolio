@@ -10,7 +10,14 @@ export async function generateMetadata(): Promise<Metadata> {
   const settings = await getSettings();
   return {
     title: "Ahmed Ghazi Web Design + Code",
-    description: "website.description",
+    description:
+      "BASED IN PARIS 18. Angular ,Chrome extension ,Design ,Eshop ,JAMStack ,MEAN ,React ,Static ,Wordpress",
+    openGraph: {
+      images: [
+        settings.logo?.asset.url ||
+          "https://cdn.sanity.io/images/lkqsx233/production/fcd1c48e727e02a67fcf9bb10b0a12476ea995de-1200x630.png",
+      ],
+    },
   };
 }
 
