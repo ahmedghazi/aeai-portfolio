@@ -10,6 +10,10 @@ jobs:
       run:
         working-directory: ./web
     steps:
+      - env:
+          MESSAGE: ${{ github.event.client_payload.message }}
+        run: echo $MESSAGE
+
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 

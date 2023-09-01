@@ -29,7 +29,9 @@ const DeployComponent = () => {
           owner: 'ahmedghazi',
           repo: 'aeai-portfolio',
           event_type: 'deploy-from-sanity',
-          client_payload: {},
+          client_payload: {
+            message: `trigger from deploy ci inside sanity on ${new Date()}`,
+          },
         }),
       },
     )
