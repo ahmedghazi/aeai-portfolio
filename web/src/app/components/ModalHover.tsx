@@ -82,7 +82,7 @@ const ModalHover = (props: Props) => {
         pointerEvents: show ? "all" : "none",
       }}>
       <button
-        className='close absolute right-md top-md scale-150-'
+        className='close absolute left-1/2 -translate-x-1/2 top-sm scale-150-'
         onClick={() => setShow(false)}>
         close
       </button>
