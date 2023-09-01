@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import website from "./config/website";
 import DotMatrix from "./components/DotMatrix";
 import { PageContextProvider } from "./context/PageContext";
+import ModalHover from "./components/ModalHover";
 
 export const metadata = {
   title: {
@@ -28,6 +29,7 @@ export default function RootLayout({
             <Header />
             <main>{children}</main>
             <Footer />
+            <ModalHover />
           </PageContextProvider>
         </div>
       </body>

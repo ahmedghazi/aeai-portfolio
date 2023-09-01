@@ -4,6 +4,7 @@ import { Project, Tag } from "../types/schema";
 import TagButton from "./TagButton";
 import { usePageContext } from "../context/PageContext";
 import clsx from "clsx";
+import { publish } from "pubsub-js";
 
 type Props = {
   input: Project;
@@ -28,8 +29,19 @@ const Project = ({ input }: Props) => {
       setHide(false);
     }
   }, [tag]);
+
+  const _onMouseEnter = (e: React.MouseEvent) => {
+    publish("PROJECT_IFRAME", input.url);
+  };
+  const _onMouseLeave = (e: React.MouseEvent) => {
+    publish("PROJECT_IFRAME", "");
+  };
+
   return (
-    <article className={clsx("project", hide ? "hidden" : "block")}>
+    <article
+      className={clsx("project", hide ? "hidden" : "block")}
+      onMouseEnter={_onMouseEnter}
+      onMouseLeave={_onMouseLeave}>
       <a
         href={input.url}
         target='_blank'
