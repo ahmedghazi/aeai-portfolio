@@ -43,7 +43,6 @@ const ModalHover = (props: Props) => {
       document.body.removeEventListener("mousemove", _update);
     }
   }, [url]);
-  console.log(show);
 
   const _update = (e: MouseEvent) => {
     if (url) return;
@@ -65,6 +64,16 @@ const ModalHover = (props: Props) => {
     }, 250);
   };
 
+  const _sanitizeUrl = (u: string) => {
+    let clean = u;
+    clean = clean.replace("http://", "");
+    clean = clean.replace("https://", "");
+    if (clean[clean.length - 1] == "/")
+      clean = clean.substr(0, clean.length - 1);
+    console.log(u, clean);
+    return clean;
+  };
+
   return (
     <div
       ref={ref}
@@ -81,11 +90,21 @@ const ModalHover = (props: Props) => {
         height: `${height}px`,
         pointerEvents: show ? "all" : "none",
       }}>
-      <button
-        className='close absolute left-1/2 -translate-x-1/2 top-sm scale-150-'
-        onClick={() => setShow(false)}>
-        close
-      </button>
+      <div className='header absolute  flex justify-between items-center'>
+        {url && (
+          <a
+            href={url}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='url ellipsis'>
+            {_sanitizeUrl(url)}
+          </a>
+        )}
+
+        <button className='close ' onClick={() => setShow(false)}>
+          ×
+        </button>
+      </div>
       {url && (
         <iframe
           src={url}

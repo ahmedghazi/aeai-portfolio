@@ -41,25 +41,37 @@ main {
 }
 
 .modal-hover {
-  border: 1px solid;
+  border: 1px solid white;
   // border-radius: 1em;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
   bottom: -1px;
   overflow: hidden;
   // transform: scale(0.5) translateX(-50%);
   // transform-origin: left top;
+  padding-top: 2.2em;
+  .header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    top: 0;
+    padding: 0.5em 1em;
+    .url {
+      color: #ccc;
+      padding-right: 0.5em;
+    }
+  }
   iframe {
     // zoom: 0.75;
   }
   button {
-    background-color: black;
-    color: white;
-    padding: 0.5em 1em;
-    // border-radius: 1em;
-    top: 0;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+    // background-color: black;
+    // color: white;
+    // padding: 0.5em 1em;
+    // // border-radius: 1em;
+    // top: 0;
+    // border-bottom-right-radius: 1em;
+    // border-bottom-left-radius: 1em;
   }
 }
 
