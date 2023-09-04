@@ -14,6 +14,7 @@ curl -H "Authorization: token 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" \
 const DeployComponent = () => {
   const [status, setStatus] = useState<string>('')
 
+  console.log(process.env.SANITY_STUDIO_TOKEN_GITHUB)
   const _onClick = async () => {
     //https://github.com/settings/tokens/new
     const response = await fetch(
@@ -23,7 +24,7 @@ const DeployComponent = () => {
         headers: {
           // 'Content-Type': 'application/json',
           Accept: 'application/vnd.github+json',
-          Authorization: 'token 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',
+          Authorization: `token ${process.env.SANITY_STUDIO_TOKEN_GITHUB}`,
           'X-GitHub-Api-Version': '2022-11-28',
         },
         body: JSON.stringify({

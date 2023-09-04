@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Project from "./components/Project";
 import Grid from "./components/Grid";
 import { getProjects, getSettings } from "./utils/sanity-utils";
