@@ -6,6 +6,7 @@ import website from "./config/website";
 import DotMatrix from "./components/DotMatrix";
 import { PageContextProvider } from "./context/PageContext";
 import ModalHover from "./components/ModalHover";
+import CursorBlob from "./components/CursorBlob";
 
 export const metadata = {
   title: {
@@ -30,6 +31,7 @@ export default function RootLayout({
             <main>{children}</main>
             <Footer />
             <ModalHover />
+            <CursorBlob size={20} color='white' />
           </PageContextProvider>
         </div>
       </body>
