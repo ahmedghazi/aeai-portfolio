@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import clsx from "clsx";
 import { throttle } from "throttle-debounce";
 // import { debounce } from "throttle-debounce";
@@ -10,6 +10,17 @@ import { throttle } from "throttle-debounce";
 interface WrapperProps {
   size: number;
 }
+
+const animeRadius = keyframes`
+  0%,
+  100% { border-radius: 47% 53% 44% 56% / 55% 44% 56% 45%  }
+  14% { border-radius: 50% 50% 48% 52% / 51% 47% 53% 49% }
+  28% { border-radius: 51% 49% 52% 48% / 48% 47% 53% 52%  }
+  42% { border-radius: 91% 39% 95% 95% / 91% 38% 92% 39%; }
+  56% { border-radius: 47% 53% 44% 56% / 55% 44% 56% 45% }
+  70% { border-radius: 50% 50% 48% 52% / 51% 47% 53% 49%  }
+  84% { border-radius: 51% 49% 52% 48% / 48% 47% 53% 52% }
+`;
 
 const Wrapper = styled.div<WrapperProps>`
   position: fixed;
@@ -26,8 +37,11 @@ const Wrapper = styled.div<WrapperProps>`
     height: ${(props) => props.size}px;
     border-radius: 100%;
     background: ${(props) => props.color};
-    transition: background-color 150ms ease, transform 150ms ease-out;
+    transition: background-color 150ms ease,
+      transform 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275),
+      border-radius 1000ms ease-out;
     filter: url("#glue");
+    /* animation: ${animeRadius} 10s linear infinite; */
   }
   svg {
     opacity: 0;
@@ -61,6 +75,7 @@ interface Style {
   y: number;
   opacity: number;
   scale: number;
+  borderRadius: string;
 }
 
 // type MouseMoveHandler = {
@@ -69,11 +84,17 @@ interface Style {
 //https://codepen.io/Starglider/pen/LYEELVy?editors=0010
 const CursorBlob = ({ color, size }: CProps) => {
   // const inertia = 0.3;
-  const [css, setCss] = useState<Style>({ x: 0, y: 0, opacity: 0, scale: 1 });
+  const [css, setCss] = useState<Style>({
+    x: 0,
+    y: 0,
+    opacity: 0,
+    scale: 1,
+    borderRadius: "100%",
+  });
   const [isAnchorOrButton, setIsAnchorOrButton] = useState<boolean>(false);
   const [isMouseDown, setIsMouseDown] = useState<boolean>(false);
   const [isInput, setIsInput] = useState<boolean>(false);
-  const scaleFactor = 0.8;
+  const scaleFactor = 0.5;
 
   useEffect(() => {
     document.body.classList.add("has-custom-cursor");
@@ -93,14 +114,30 @@ const CursorBlob = ({ color, size }: CProps) => {
     };
   }, [size]);
 
+  const _getRandomRadius = () => {
+    //51% 49% 52% 48% / 48% 47% 53% 52%
+    let result = "";
+    for (let i = 0; i < 3; i++) {
+      result += `${45 + Math.round(Math.random() * 10)}% `;
+    }
+    result += " / ";
+    for (let i = 0; i < 3; i++) {
+      result += `${45 + Math.round(Math.random() * 10)}% `;
+    }
+    return result;
+  };
+
   const _blobyFy = throttle(
-    1000,
+    2000,
     (num) => {
-      console.log("num:", num);
+      // console.log("num:", num);
+      const blobBorder = _getRandomRadius();
+      // console.log(blobBorder);
+
       setCss((css) => ({
         ...css,
-
         scale: css.scale + scaleFactor,
+        borderRadius: blobBorder,
       }));
     },
     { noLeading: false, noTrailing: false }
@@ -176,8 +213,9 @@ const CursorBlob = ({ color, size }: CProps) => {
         className='dot'
         style={{
           transform: `scale(${css.scale})`,
+          borderRadius: css.borderRadius,
         }}></div>
-      <svg>
+      {/* <svg>
         <defs>
           <filter id='glue'>
             <feGaussianBlur
@@ -194,7 +232,7 @@ const CursorBlob = ({ color, size }: CProps) => {
             <feBlend in='SourceGraphic' in2='glue' />
           </filter>
         </defs>
-      </svg>
+      </svg> */}
     </Wrapper>
   );
 };
