@@ -10,7 +10,7 @@ type Props = {
   input: Project;
 };
 
-const Project = ({ input }: Props) => {
+const ProjectComponent = ({ input }: Props) => {
   const { tag } = usePageContext();
   const [hide, setHide] = useState<boolean>(false);
   useEffect(() => {
@@ -74,4 +74,4 @@ const Project = ({ input }: Props) => {
   );
 };
 
-export default Project;
+export default ProjectComponent;
