@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import clsx from "clsx";
-import { throttle } from "throttle-debounce";
+import { debounce, throttle } from "throttle-debounce";
 // import { debounce } from "throttle-debounce";
 // import { publish } from "pubsub-js";
 // import { _isTouchDevice } from "utils/utils";
@@ -12,14 +12,17 @@ interface WrapperProps {
 }
 
 const animeRadius = keyframes`
-  0%,
+  to {
+    /* transform: rotate(360deg); */
+  }
+  /* 0%,
   100% { border-radius: 47% 53% 44% 56% / 55% 44% 56% 45%  }
   14% { border-radius: 50% 50% 48% 52% / 51% 47% 53% 49% }
   28% { border-radius: 51% 49% 52% 48% / 48% 47% 53% 52%  }
   42% { border-radius: 91% 39% 95% 95% / 91% 38% 92% 39%; }
   56% { border-radius: 47% 53% 44% 56% / 55% 44% 56% 45% }
   70% { border-radius: 50% 50% 48% 52% / 51% 47% 53% 49%  }
-  84% { border-radius: 51% 49% 52% 48% / 48% 47% 53% 52% }
+  84% { border-radius: 51% 49% 52% 48% / 48% 47% 53% 52% } */
 `;
 
 const Wrapper = styled.div<WrapperProps>`
@@ -39,9 +42,9 @@ const Wrapper = styled.div<WrapperProps>`
     background: ${(props) => props.color};
     transition: background-color 150ms ease,
       transform 1000ms cubic-bezier(0.175, 0.885, 0.32, 1.275),
-      border-radius 1000ms ease-out;
+      border-radius 2000ms ease-out;
     filter: url("#glue");
-    /* animation: ${animeRadius} 10s linear infinite; */
+    animation: ${animeRadius} 10s linear infinite;
   }
   svg {
     opacity: 0;
@@ -128,7 +131,7 @@ const CursorBlob = ({ color, size }: CProps) => {
   };
 
   const _blobyFy = throttle(
-    2000,
+    1000,
     (num) => {
       // console.log("num:", num);
       const blobBorder = _getRandomRadius();
@@ -142,6 +145,22 @@ const CursorBlob = ({ color, size }: CProps) => {
     },
     { noLeading: false, noTrailing: false }
   );
+
+  // const _blobyFy = debounce(
+  //   500,
+  //   (num) => {
+  //     // console.log("num:", num);
+  //     const blobBorder = _getRandomRadius();
+  //     // console.log(blobBorder);
+
+  //     setCss((css) => ({
+  //       ...css,
+  //       scale: css.scale + scaleFactor,
+  //       borderRadius: blobBorder,
+  //     }));
+  //   },
+  //   { atBegin: true }
+  // );
 
   const _onMouseMove = (e: MouseEvent) => {
     const isTouch = typeof window !== undefined && window.innerWidth < 1080;

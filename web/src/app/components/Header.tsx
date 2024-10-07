@@ -33,6 +33,20 @@ const Header = async (props: Props) => {
                 <span className='label'>{item.label}</span>
               </a>
             ))}
+          <a
+            className='flex _row'
+            href='https://www.websitecarbon.com/website/ahmedghazi-com/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <span className='accr pr-md' title='Score'>
+              _S:
+            </span>
+            <span
+              className='label'
+              title='0.04g of CO2/view. Cleaner than 96% of pages tested'>
+              WebsiteCarbon A+
+            </span>
+          </a>
         </div>
         <div className='md:px-lg skills'>
           <div className=' _row flex '>
