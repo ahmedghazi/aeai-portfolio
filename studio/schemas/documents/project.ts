@@ -1,7 +1,5 @@
 import {defineField, defineArrayMember, defineType} from 'sanity'
-import {FolderIcon} from '@sanity/icons'
-// import modulesList from '../objects/modules/modulesList'
-// import {baseLanguage} from '../locale/supportedLanguages'
+import {FolderIcon} from '@sanity/icons/Folder'
 
 export default defineType({
   type: 'document',

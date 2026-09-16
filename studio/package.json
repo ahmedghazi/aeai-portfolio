@@ -17,23 +17,23 @@
     "sanity"
   ],
   "dependencies": {
-    "@babel/preset-typescript": "^7.22.5",
-    "@sanity/vision": "^3.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "sanity": "^3.0.0",
+    "@babel/preset-typescript": "^8.0.1",
+    "@sanity/vision": "^6.14.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-is": "^19.3.0",
+    "sanity": "^6.14.1",
     "sanity-codegen": "^0.9.8",
-    "sanity-plugin-media": "^2.2.2",
-    "styled-components": "^5.2.0"
+    "sanity-plugin-media": "^6.2.0",
+    "styled-components": "^6.5.3"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^3.0.0",
-    "@types/react": "^18.0.25",
-    "@types/styled-components": "^5.1.26",
-    "eslint": "^8.6.0",
-    "prettier": "^3.0.2",
-    "typescript": "^4.0.0"
+    "@sanity/eslint-config-studio": "^7.0.0",
+    "@types/react": "^19.3.0",
+    "@types/styled-components": "^5.1.36",
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.7",
+    "typescript": "^7.0.2"
   },
   "prettier": {
     "semi": false,

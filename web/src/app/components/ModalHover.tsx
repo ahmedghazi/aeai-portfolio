@@ -104,12 +104,12 @@ const ModalHover = (props: Props) => {
     <div
       ref={ref}
       className={clsx(
-        "modal-hover fixed bottom-0 right-xl -translate-x-1/2)- scale-50- pointer-events-none-  will-change-transform transition-opacity- transition-all-  hidden-sm z-50 bg-bg"
+        "modal-hover fixed bottom-xl right-xl top-header-height -translate-x-1/2)- scale-50- pointer-events-none-  will-change-transform transition-opacity- transition-all-  hidden-sm z-50 bg-bg",
       )}
       style={{
         opacity: show ? 1 : 0,
         width: `${width}px`,
-        height: `${height}px`,
+        // height: `${height}px`,
         pointerEvents: show ? "all" : "none",
       }}>
       <div className='header sticky  flex justify-between items-center z-50'>
@@ -136,9 +136,7 @@ const ModalHover = (props: Props) => {
           width={"100%"}
           height={height}
           onLoad={_onIframeLoaded}
-          className={clsx(
-            iframeLoaded ? "opacity-100" : "opacity-10"
-          )}></iframe>
+          className={clsx(iframeLoaded ? "opacity-100" : "opacity-5")}></iframe>
       )}
     </div>
   );
